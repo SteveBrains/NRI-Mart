@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, Download, Globe, Heart, Zap, Users, Package, Truck, MessageCircle, Star, ShoppingBasket, Store } from "lucide-react";
@@ -150,10 +151,11 @@ export default function Home() {
             <a href="#why-choose" className="text-foreground hover:text-primary transition-colors font-poppins">Why Choose Us</a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors font-poppins">Contact</a>
           </div>
-          <Button className="bg-primary hover:bg-primary/90 text-white font-poppins">
-            <Download className="mr-2 h-4 w-4" />
-            Download App
-          </Button>
+          <Link href="/login" target="_blank">
+            <Button className="bg-primary hover:bg-primary/90 text-white font-poppins px-6 shadow-md shadow-primary/20 transition-all hover:scale-105 active:scale-95">
+              Get Started
+            </Button>
+          </Link>
         </div>
       </nav>
 
@@ -179,23 +181,14 @@ export default function Home() {
                 NRI Mart is Bringing INDIA Near you. We deliver the authentic taste, touch, and tradition of India directly to your doorstep, anywhere in the world.
               </p>
               <div className="flex flex-wrap gap-4 items-center">
-                <a href="#" className="hover:opacity-90 transition-opacity">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
-                    alt="Download on the App Store"
-                    className="h-12 md:h-14"
-                  />
-                </a>
-                <a href="#" className="hover:opacity-90 transition-opacity">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-                    alt="Get it on Google Play"
-                    className="h-12 md:h-14"
-                  />
-                </a>
-                <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10 text-lg px-8 h-12 md:h-14">
+                <Link href="/login" target="_blank">
+                  <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-10 h-14 shadow-lg shadow-primary/20 transition-all hover:scale-105 active:scale-95 font-semibold tracking-wide">
+                    Get Started
+                  </Button>
+                </Link>
+                {/* <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10 text-lg px-8 h-14 font-semibold">
                   View Our Services
-                </Button>
+                </Button> */}
               </div>
             </div>
 
@@ -289,6 +282,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Stats Section */}
+      <section className="py-20 bg-primary text-white">
+        <div className="container">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center child:animate-fadeIn">
+            <div className="space-y-2">
+              <h3 className="text-4xl md:text-5xl font-bold font-playfair tracking-tight">10K+</h3>
+              <p className="text-primary-foreground/80 font-poppins text-sm md:text-base uppercase tracking-widest font-medium">Successful Shippings</p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="text-4xl md:text-5xl font-bold font-playfair tracking-tight">20+</h3>
+              <p className="text-primary-foreground/80 font-poppins text-sm md:text-base uppercase tracking-widest font-medium">Countries Served</p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="text-4xl md:text-5xl font-bold font-playfair tracking-tight">5K+</h3>
+              <p className="text-primary-foreground/80 font-poppins text-sm md:text-base uppercase tracking-widest font-medium">Happy Customers</p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="text-4xl md:text-5xl font-bold font-playfair tracking-tight">24/7</h3>
+              <p className="text-primary-foreground/80 font-poppins text-sm md:text-base uppercase tracking-widest font-medium">Expert Support</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us Section */}
       <section id="why-choose" className="py-20 md:py-32 bg-white">
         <div className="container">
@@ -357,6 +374,94 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* App Download Section */}
+      <section id="download" className="py-20 md:py-32 bg-muted/30 relative overflow-hidden">
+        <div className="container relative z-10">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="animate-slideInLeft text-left">
+              <div className="inline-block px-4 py-1.5 mb-6 bg-primary/10 text-primary rounded-full text-xs font-bold tracking-[0.2em] font-poppins uppercase">
+                Coming Soon!
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 font-playfair leading-tight">
+                Seamless Experience <br /> on <span className="text-primary italic">Every Device</span>
+              </h2>
+              <p className="text-lg text-foreground/70 font-poppins mb-10 max-w-lg leading-relaxed">
+                Management of your orders, luggage tracking, and real-time updates are all at your fingertips. Download the NRI Mart app and stay connected to India wherever you are.
+              </p>
+              <div className="hidden md:flex flex-wrap gap-4 items-center">
+                <a href="#" className="hover:opacity-90 transition-all hover:scale-105 active:scale-95">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                    alt="Download on the App Store"
+                    className="h-14"
+                  />
+                </a>
+                <a href="#" className="hover:opacity-90 transition-all hover:scale-105 active:scale-95">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                    alt="Get it on Google Play"
+                    className="h-14"
+                  />
+                </a>
+                <Link href="/login" target="_blank" className="flex items-center gap-2.5 px-3.5 h-[52px] bg-black text-white border border-white/20 rounded-[8px] hover:bg-neutral-900 transition-all hover:scale-105 active:scale-95 group shadow-lg min-w-[160px]">
+                  <Globe className="w-7 h-7 flex-shrink-0" />
+                  <div className="flex flex-col items-start justify-center">
+                    <span className="text-[9px] font-medium leading-none uppercase tracking-tighter opacity-90">Open NRI Mart</span>
+                    <span className="text-[19px] font-semibold leading-tight tracking-tight">Web App</span>
+                  </div>
+                </Link>
+              </div>
+            </div>
+            <div className="relative animate-slideInRight flex justify-center py-10 order-2 md:order-none">
+              {/* iPhone 17 Pro Max Frame Simulation */}
+              <div className="relative w-[280px] h-[600px] md:w-[320px] md:h-[680px] bg-foreground rounded-[3rem] border-[3px] border-[#1a1a1a] shadow-[0_50px_100px_-20px_rgba(0,0,0,0.5)] overflow-hidden transform hover:scale-[1.02] transition-transform duration-500 group">
+                {/* Dynamic Island */}
+                <div className="absolute top-2 left-1/2 -translate-x-1/2 w-22 h-6 bg-black rounded-full z-20 shadow-inner" />
+
+                {/* Internal Bezel/Inner Frame */}
+                <div className="absolute inset-0 border-[2px] border-white/5 rounded-[2.5rem] z-10 pointer-events-none" />
+
+                {/* Screen Content */}
+                <div className="absolute inset-0 bg-white">
+                  <img
+                    src="/IMG_3869.PNG"
+                    alt="NRI Mart App Interface"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[20s] ease-linear"
+                  />
+                </div>
+              </div>
+
+              {/* Decorative Glow behind phone */}
+              <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-primary/20 rounded-full blur-[100px]" />
+            </div>
+
+            {/* Mobile Only: Links at the bottom */}
+            <div className="flex md:hidden flex-wrap gap-4 items-center justify-center order-3">
+              <a href="#" className="hover:opacity-90 transition-all hover:scale-105 active:scale-95">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                  alt="Download on the App Store"
+                  className="h-12"
+                />
+              </a>
+              <a href="#" className="hover:opacity-90 transition-all hover:scale-105 active:scale-95">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                  alt="Get it on Google Play"
+                  className="h-12"
+                />
+              </a>
+              <Link href="/login" target="_blank" className="flex items-center gap-2.5 px-3.5 h-[48px] bg-black text-white border border-white/20 rounded-[8px] hover:bg-neutral-900 transition-all hover:scale-105 active:scale-95 group shadow-lg min-w-[150px]">
+                <Globe className="w-6 h-6 flex-shrink-0" />
+                <div className="flex flex-col items-start justify-center text-left">
+                  <span className="text-[8px] font-medium leading-none uppercase tracking-tighter opacity-90">Open NRI Mart</span>
+                  <span className="text-[17px] font-semibold leading-tight tracking-tight">Web App</span>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Communication Section */}
       <section className="py-20 md:py-32 bg-gradient-to-r from-primary/10 to-secondary/10">
@@ -413,22 +518,13 @@ export default function Home() {
             Download NRI Mart today and bring a piece of home to your doorstep, wherever life takes you.
           </p>
           <div className="flex flex-wrap gap-6 justify-center items-center">
-            <a href="#" className="hover:opacity-90 transition-opacity">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
-                alt="Download on the App Store"
-                className="h-12 md:h-14 brightness-0 invert"
-              />
-            </a>
-            <a href="#" className="hover:opacity-90 transition-opacity">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-                alt="Get it on Google Play"
-                className="h-12 md:h-14 brightness-0 invert"
-              />
-            </a>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 font-semibold h-12 md:h-14">
-              Get Started
+            <Link href="/login" target="_blank">
+              <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-xl px-12 h-16 font-bold shadow-xl transition-all hover:scale-105 active:scale-95">
+                Get Started
+              </Button>
+            </Link>
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-xl px-10 h-16 font-bold">
+              Learn More
             </Button>
           </div>
         </div>
@@ -465,20 +561,11 @@ export default function Home() {
             </div>
             <div>
               <h4 className="font-bold mb-4 font-playfair">Connect</h4>
-              <ul className="space-y-2 text-white/70 text-sm font-poppins mb-6">
+              <ul className="space-y-2 text-white/70 text-sm font-poppins">
                 <li><a href="#" className="hover:text-white transition-colors">Facebook</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Instagram</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Twitter</a></li>
               </ul>
-              <h4 className="font-bold mb-4 font-playfair">Get the App</h4>
-              <div className="flex flex-col gap-3">
-                <a href="#" className="hover:opacity-80 transition-opacity">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store" className="h-10 w-auto brightness-0 invert" />
-                </a>
-                <a href="#" className="hover:opacity-80 transition-opacity">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" className="h-10 w-auto brightness-0 invert" />
-                </a>
-              </div>
             </div>
           </div>
           <div className="border-t border-white/20 pt-8 text-center text-white/60 text-sm font-poppins">
