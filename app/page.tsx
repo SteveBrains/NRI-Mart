@@ -123,7 +123,7 @@ export default function Home() {
     {
       step: 3,
       title: "Manage Luggage",
-      description: "Contact your dedicated case manager to arrange for convenient luggage pickup and safe delivery.",
+      description: "Contact your dedicated case manager to arrange for convenient luggage pickup and safe global delivery.",
       icon: <Package className="w-12 h-12" />
     },
     {
@@ -151,7 +151,7 @@ export default function Home() {
             <a href="#why-choose" className="text-foreground hover:text-primary transition-colors font-poppins">Why Choose Us</a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors font-poppins">Contact</a>
           </div>
-          <Link href="/login" target="_blank">
+          <Link href="/login" target="_blank" rel="noopener noreferrer">
             <Button className="bg-primary hover:bg-primary/90 text-white font-poppins px-6 shadow-md shadow-primary/20 transition-all hover:scale-105 active:scale-95">
               Get Started
             </Button>
@@ -181,7 +181,7 @@ export default function Home() {
                 NRI Mart is Bringing INDIA Near you. We deliver the authentic taste, touch, and tradition of India directly to your doorstep, anywhere in the world.
               </p>
               <div className="flex flex-wrap gap-4 items-center">
-                <Link href="/login" target="_blank">
+                <Link href="/login" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-10 h-14 shadow-lg shadow-primary/20 transition-all hover:scale-105 active:scale-95 font-semibold tracking-wide">
                     Get Started
                   </Button>
@@ -344,7 +344,7 @@ export default function Home() {
               Global Reach
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 font-playfair">
-              We Ship to <span className="text-primary italic font-black">50+ Countries</span>
+              We Ship to <span className="text-primary italic font-black">20+ Countries</span>
             </h2>
             <p className="text-lg text-foreground/70 font-poppins max-w-2xl mx-auto leading-relaxed">
               No matter where you are, we'll deliver the taste and touch of India directly to your doorstep with care and speed.
@@ -403,7 +403,7 @@ export default function Home() {
                     className="h-14"
                   />
                 </a>
-                <Link href="/login" target="_blank" className="flex items-center gap-2.5 px-3.5 h-[52px] bg-black text-white border border-white/20 rounded-[8px] hover:bg-neutral-900 transition-all hover:scale-105 active:scale-95 group shadow-lg min-w-[160px]">
+                <Link href="/login" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 px-3.5 h-[52px] bg-black text-white border border-white/20 rounded-[8px] hover:bg-neutral-900 transition-all hover:scale-105 active:scale-95 group shadow-lg min-w-[160px]">
                   <Globe className="w-7 h-7 flex-shrink-0" />
                   <div className="flex flex-col items-start justify-center">
                     <span className="text-[9px] font-medium leading-none uppercase tracking-tighter opacity-90">Open NRI Mart</span>
@@ -451,7 +451,7 @@ export default function Home() {
                   className="h-12"
                 />
               </a>
-              <Link href="/login" target="_blank" className="flex items-center gap-2.5 px-3.5 h-[48px] bg-black text-white border border-white/20 rounded-[8px] hover:bg-neutral-900 transition-all hover:scale-105 active:scale-95 group shadow-lg min-w-[150px]">
+              <Link href="/login" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 px-3.5 h-[48px] bg-black text-white border border-white/20 rounded-[8px] hover:bg-neutral-900 transition-all hover:scale-105 active:scale-95 group shadow-lg min-w-[150px]">
                 <Globe className="w-6 h-6 flex-shrink-0" />
                 <div className="flex flex-col items-start justify-center text-left">
                   <span className="text-[8px] font-medium leading-none uppercase tracking-tighter opacity-90">Open NRI Mart</span>
@@ -518,7 +518,7 @@ export default function Home() {
             Download NRI Mart today and bring a piece of home to your doorstep, wherever life takes you.
           </p>
           <div className="flex flex-wrap gap-6 justify-center items-center">
-            <Link href="/login" target="_blank">
+            <Link href="/login" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-xl px-12 h-16 font-bold shadow-xl transition-all hover:scale-105 active:scale-95">
                 Get Started
               </Button>

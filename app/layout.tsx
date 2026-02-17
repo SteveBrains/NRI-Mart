@@ -15,20 +15,20 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-    title: "NRI Mart | Revolutionizing NRI Services & International Logistics",
-    description: "NRI Mart is Bringing INDIA Near you. We offer comprehensive services for NRIs including store products, custom sourcing, safe luggage delivery, and e-commerce shipping with dedicated case managers.",
-    keywords: "NRI services, international shipping, luggage delivery service, personal shopper for NRIs, e-commerce products India, NRI Mart app, Bringing INDIA Near you, custom logistics for NRIs",
+    title: "NRI Mart | Best International Courier from Hyderabad & NRI Personal Shopper",
+    description: "NRI Mart is Bringing INDIA Near you. Premium international shipping, luggage delivery, and personal shopping services from Hyderabad to USA, UK, Canada & 50+ countries. Specialized in Hyderabad sweets and authentic local goods.",
+    keywords: "NRI services, international courier Hyderabad, best shipping from Hyderabad to USA, luggage delivery service Hyderabad, personal shopper Hyderabad, send sweets from Hyderabad to UK, NRI Mart Hyderabad office, Bringing INDIA Near you",
     openGraph: {
         type: "website",
         url: "https://nrimart.com/",
         title: "NRI Mart | Bringing INDIA Near you",
-        description: "Simplify your life with NRI Mart. From everyday essentials to unique finds and luggage delivery, we are Bringing INDIA Near you with care.",
+        description: "Your trusted gateway to India. From everyday essentials to unique finds and global luggage delivery, we are Bringing INDIA Near you with care and precision.",
         images: [{ url: "https://nrimart.com/og-image.png" }],
     },
     twitter: {
         card: "summary_large_image",
         title: "NRI Mart | Bringing INDIA Near you",
-        description: "Experience the future of convenience with NRI Mart. Dedicated case managers and seamless international shipping, Bringing INDIA Near you.",
+        description: "Experience the ultimate convenience with NRI Mart. Personalized logistics and international shipping, Bringing INDIA Near you.",
         images: ["https://nrimart.com/og-image.png"],
     },
     alternates: {
