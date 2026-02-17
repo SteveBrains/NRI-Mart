@@ -91,6 +91,21 @@ export default function Home() {
     { code: "TA", name: "தமிழ்" }
   ];
 
+  const countries = [
+    { name: "United States", flag: "🇺🇸" },
+    { name: "United Kingdom", flag: "🇬🇧" },
+    { name: "Canada", flag: "🇨🇦" },
+    { name: "Australia", flag: "🇦🇺" },
+    { name: "Germany", flag: "🇩🇪" },
+    { name: "UAE", flag: "🇦🇪" },
+    { name: "Singapore", flag: "🇸🇬" },
+    { name: "New Zealand", flag: "🇳🇿" },
+    { name: "Netherlands", flag: "🇳🇱" },
+    { name: "France", flag: "🇫🇷" },
+    { name: "Ireland", flag: "🇮🇪" },
+    { name: "Saudi Arabia", flag: "🇸🇦" },
+  ];
+
   const howItWorks = [
     {
       step: 1,
@@ -127,7 +142,7 @@ export default function Home() {
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg font-playfair">NM</span>
             </div>
-            <span className="font-bold text-xl text-foreground font-playfair">NRI MART</span>
+            <span className="font-bold text-xl text-foreground font-playfair uppercase">Bringing INDIA Near you</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#services" className="text-foreground hover:text-primary transition-colors font-poppins">Our Services</a>
@@ -294,6 +309,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Global Reach Section */}
+      <section id="global-reach" className="py-20 md:py-32 bg-white overflow-hidden">
+        <div className="container">
+          <div className="text-center mb-16 relative">
+            <div className="inline-block px-4 py-1.5 mb-6 bg-primary/10 text-primary rounded-full text-xs font-bold tracking-[0.2em] font-poppins uppercase">
+              Global Reach
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 font-playfair">
+              We Ship to <span className="text-primary italic font-black">50+ Countries</span>
+            </h2>
+            <p className="text-lg text-foreground/70 font-poppins max-w-2xl mx-auto leading-relaxed">
+              No matter where you are, we'll deliver the taste and touch of India directly to your doorstep with care and speed.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-4 md:gap-6 px-4">
+            {countries.map((country, index) => (
+              <div
+                key={index}
+                className="flex items-center gap-4 px-6 py-4 bg-white border border-border rounded-2xl hover:border-primary/30 hover:shadow-[0_20px_50px_rgba(68,97,41,0.1)] hover:-translate-y-1 transition-all duration-500 group cursor-default min-w-[200px]"
+              >
+                <div className="w-12 h-12 rounded-full bg-muted/50 flex items-center justify-center text-3xl shadow-inner group-hover:bg-primary/10 transition-colors duration-500">
+                  {country.flag}
+                </div>
+                <span className="font-semibold text-foreground/80 group-hover:text-primary transition-colors duration-500 font-poppins">
+                  {country.name}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-16 text-center">
+            <p className="text-foreground/40 text-sm font-poppins tracking-wide">
+              And many more... We are continuously expanding our footprint to serve you better.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Communication Section */}
       <section className="py-20 md:py-32 bg-gradient-to-r from-primary/10 to-secondary/10">
         <div className="container">
@@ -369,7 +423,7 @@ export default function Home() {
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                   <span className="font-bold font-playfair">NM</span>
                 </div>
-                <span className="font-bold text-lg font-playfair">NRI MART</span>
+                <span className="font-bold text-lg font-playfair uppercase">Bringing INDIA Near you</span>
               </div>
               <p className="text-white/70 text-sm font-poppins">Your bridge to home, simplified.</p>
             </div>
