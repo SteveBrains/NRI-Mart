@@ -16,19 +16,19 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
     title: "NRI MART | Revolutionizing NRI Services & International Logistics",
-    description: "NRI MART is your bridge to home. We offer comprehensive services for NRIs including store products, custom sourcing, safe luggage delivery, and e-commerce shipping with dedicated case managers.",
-    keywords: "NRI services, international shipping, luggage delivery service, personal shopper for NRIs, e-commerce products India, NRI Mart app, bridge to home, custom logistics for NRIs",
+    description: "NRI MART is Bringing INDIA Near you. We offer comprehensive services for NRIs including store products, custom sourcing, safe luggage delivery, and e-commerce shipping with dedicated case managers.",
+    keywords: "NRI services, international shipping, luggage delivery service, personal shopper for NRIs, e-commerce products India, NRI Mart app, Bringing INDIA Near you, custom logistics for NRIs",
     openGraph: {
         type: "website",
         url: "https://nrimart.com/",
-        title: "NRI MART | Your Trusted Bridge to Home",
-        description: "Simplify your life with NRI MART. From everyday essentials to unique finds and luggage delivery, we handle your international shipping needs with care.",
+        title: "NRI MART | Bringing INDIA Near you",
+        description: "Simplify your life with NRI MART. From everyday essentials to unique finds and luggage delivery, we are Bringing INDIA Near you with care.",
         images: [{ url: "https://nrimart.com/og-image.png" }],
     },
     twitter: {
         card: "summary_large_image",
-        title: "NRI MART | Your Trusted Bridge to Home",
-        description: "Experience the future of convenience with NRI MART. Dedicated case managers and seamless international shipping for all your needs.",
+        title: "NRI MART | Bringing INDIA Near you",
+        description: "Experience the future of convenience with NRI MART. Dedicated case managers and seamless international shipping, Bringing INDIA Near you.",
         images: ["https://nrimart.com/og-image.png"],
     },
     alternates: {
