@@ -175,10 +175,10 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slideInLeft">
               <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight font-playfair uppercase">
-                Bringing <span className="text-primary tracking-normal">INDIA</span> <br /> Near you
+                Bringing <span className="text-primary tracking-normal">INDIA</span> <br /> Closer to you
               </h1>
               <p className="text-xl text-foreground/80 mb-8 font-light font-poppins leading-relaxed">
-                NRI Mart is Bringing INDIA Near you. We deliver the authentic taste, touch, and tradition of India directly to your doorstep, anywhere in the world.
+                NRI Mart is Bringing INDIA Closer to you. We deliver the authentic taste, touch, and tradition of India directly to your doorstep, anywhere in the world.
               </p>
               <div className="flex flex-wrap gap-4 items-center">
                 <Link href="/login" target="_blank" rel="noopener noreferrer">
@@ -207,7 +207,7 @@ export default function Home() {
       <section className="py-16 bg-muted/20">
         <div className="container max-w-4xl text-center">
           <p className="text-xl text-foreground/80 font-poppins leading-relaxed">
-            NRI Mart is dedicated to Bringing INDIA Near you. We understand the longing for familiar flavors and the convenience of having your favorite products, no matter where you are. That's why we offer a comprehensive service that goes beyond groceries.
+            NRI Mart is dedicated to Bringing INDIA Closer to you. We understand the longing for familiar flavors and the convenience of having your favorite products, no matter where you are. That's why we offer a comprehensive service that goes beyond groceries.
           </p>
         </div>
       </section>
@@ -545,7 +545,7 @@ export default function Home() {
                 </div>
                 <span className="font-bold text-lg font-playfair">NRI Mart</span>
               </div>
-              <p className="text-white/70 text-sm font-poppins">Bringing INDIA Near you, simplified.</p>
+              <p className="text-white/70 text-sm font-poppins">Bringing INDIA Closer to you, simplified.</p>
             </div>
             <div>
               <h4 className="font-bold mb-4 font-playfair">Quick Links</h4>

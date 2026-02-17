@@ -16,19 +16,19 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
     title: "NRI Mart | Best International Courier from Hyderabad & NRI Personal Shopper",
-    description: "NRI Mart is Bringing INDIA Near you. Premium international shipping, luggage delivery, and personal shopping services from Hyderabad to USA, UK, Canada & 50+ countries. Specialized in Hyderabad sweets and authentic local goods.",
-    keywords: "NRI services, international courier Hyderabad, best shipping from Hyderabad to USA, luggage delivery service Hyderabad, personal shopper Hyderabad, send sweets from Hyderabad to UK, NRI Mart Hyderabad office, Bringing INDIA Near you",
+    description: "NRI Mart is Bringing INDIA Closer to you. Premium international shipping, luggage delivery, and personal shopping services from Hyderabad to USA, UK, Canada & 50+ countries. Specialized in Hyderabad sweets and authentic local goods.",
+    keywords: "NRI services, international courier Hyderabad, best shipping from Hyderabad to USA, luggage delivery service Hyderabad, personal shopper Hyderabad, send sweets from Hyderabad to UK, NRI Mart Hyderabad office, Bringing INDIA Closer to you",
     openGraph: {
         type: "website",
         url: "https://nrimart.com/",
-        title: "NRI Mart | Bringing INDIA Near you",
-        description: "Your trusted gateway to India. From everyday essentials to unique finds and global luggage delivery, we are Bringing INDIA Near you with care and precision.",
+        title: "NRI Mart | Bringing INDIA Closer to you",
+        description: "Your trusted gateway to India. From everyday essentials to unique finds and global luggage delivery, we are Bringing INDIA Closer to you with care and precision.",
         images: [{ url: "https://nrimart.com/og-image.png" }],
     },
     twitter: {
         card: "summary_large_image",
-        title: "NRI Mart | Bringing INDIA Near you",
-        description: "Experience the ultimate convenience with NRI Mart. Personalized logistics and international shipping, Bringing INDIA Near you.",
+        title: "NRI Mart | Bringing INDIA Closer to you",
+        description: "Experience the ultimate convenience with NRI Mart. Personalized logistics and international shipping, Bringing INDIA Closer to you.",
         images: ["https://nrimart.com/og-image.png"],
     },
     alternates: {
