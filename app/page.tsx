@@ -142,7 +142,7 @@ export default function Home() {
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg font-playfair">NM</span>
             </div>
-            <span className="font-bold text-xl text-foreground font-playfair uppercase">Bringing INDIA Near you</span>
+            <span className="font-bold text-xl text-foreground font-playfair">NRI MART</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#services" className="text-foreground hover:text-primary transition-colors font-poppins">Our Services</a>
@@ -172,11 +172,11 @@ export default function Home() {
         <div className="container relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slideInLeft">
-              <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight font-playfair">
-                Your Trusted Bridge to Home
+              <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight font-playfair uppercase italic tracking-tight">
+                Bringing <span className="text-primary tracking-normal">INDIA</span> <br /> Near you
               </h1>
-              <p className="text-xl text-foreground/80 mb-8 font-light font-poppins">
-                At NRI MART, we're revolutionizing how you access products and manage your shipping needs. Enjoy fast, efficient delivery through our global warehouse network.
+              <p className="text-xl text-foreground/80 mb-8 font-light font-poppins leading-relaxed">
+                NRI MART is Bringing INDIA Near you. We deliver the authentic taste, touch, and tradition of India directly to your doorstep, anywhere in the world.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-8">
@@ -204,7 +204,7 @@ export default function Home() {
       <section className="py-16 bg-muted/20">
         <div className="container max-w-4xl text-center">
           <p className="text-xl text-foreground/80 font-poppins leading-relaxed">
-            NRI Mart is more than just an app; it's a bridge to home. We understand the longing for familiar flavors and the convenience of having your favorite products, no matter where you are. That's why we offer a comprehensive service that goes beyond groceries.
+            NRI Mart is dedicated to Bringing INDIA Near you. We understand the longing for familiar flavors and the convenience of having your favorite products, no matter where you are. That's why we offer a comprehensive service that goes beyond groceries.
           </p>
         </div>
       </section>
@@ -423,9 +423,9 @@ export default function Home() {
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                   <span className="font-bold font-playfair">NM</span>
                 </div>
-                <span className="font-bold text-lg font-playfair uppercase">Bringing INDIA Near you</span>
+                <span className="font-bold text-lg font-playfair">NRI MART</span>
               </div>
-              <p className="text-white/70 text-sm font-poppins">Your bridge to home, simplified.</p>
+              <p className="text-white/70 text-sm font-poppins">Bringing INDIA Near you, simplified.</p>
             </div>
             <div>
               <h4 className="font-bold mb-4 font-playfair">Quick Links</h4>
