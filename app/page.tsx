@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Check, Download, Globe, Heart, Zap, Users, Package, Truck, MessageCircle, Star, ShoppingBasket, Store } from "lucide-react";
 
 /**
- * NRI MART Landing Page - Next.js Migration with Proper SEO Content
+ * NRI Mart Landing Page - Next.js Migration with Proper SEO Content
  */
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
     {
       name: "Rajesh Kumar",
       role: "NRI in USA",
-      content: "NRI MART made it so easy to send gifts to my family back home. The case manager handled everything perfectly!",
+      content: "NRI Mart made it so easy to send gifts to my family back home. The case manager handled everything perfectly!",
       rating: 5,
       avatar: "🇮🇳"
     },
@@ -110,7 +110,7 @@ export default function Home() {
     {
       step: 1,
       title: "Download App",
-      description: "Browse our extensive catalog and place your orders directly through the NRI MART app.",
+      description: "Browse our extensive catalog and place your orders directly through the NRI Mart app.",
       icon: <Download className="w-12 h-12" />
     },
     {
@@ -142,7 +142,7 @@ export default function Home() {
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg font-playfair">NM</span>
             </div>
-            <span className="font-bold text-xl text-foreground font-playfair">NRI MART</span>
+            <span className="font-bold text-xl text-foreground font-playfair">NRI Mart</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#services" className="text-foreground hover:text-primary transition-colors font-poppins">Our Services</a>
@@ -176,25 +176,33 @@ export default function Home() {
                 Bringing <span className="text-primary tracking-normal">INDIA</span> <br /> Near you
               </h1>
               <p className="text-xl text-foreground/80 mb-8 font-light font-poppins leading-relaxed">
-                NRI MART is Bringing INDIA Near you. We deliver the authentic taste, touch, and tradition of India directly to your doorstep, anywhere in the world.
-                <p className="text-xl text-foreground/80 mb-8 font-light font-poppins leading-relaxed">
-                  NRI MART is Bringing INDIA Near you. We deliver the authentic taste, touch, and tradition of India directly to your doorstep, anywhere in the world.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-8">
-                    <Download className="mr-2 w-5 h-5" />
-                    Download NRI MART
-                  </Button>
-                  <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10 text-lg px-8">
-                    View Our Services
-                  </Button>
-                </div>
+                NRI Mart is Bringing INDIA Near you. We deliver the authentic taste, touch, and tradition of India directly to your doorstep, anywhere in the world.
+              </p>
+              <div className="flex flex-wrap gap-4 items-center">
+                <a href="#" className="hover:opacity-90 transition-opacity">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                    alt="Download on the App Store"
+                    className="h-12 md:h-14"
+                  />
+                </a>
+                <a href="#" className="hover:opacity-90 transition-opacity">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                    alt="Get it on Google Play"
+                    className="h-12 md:h-14"
+                  />
+                </a>
+                <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10 text-lg px-8 h-12 md:h-14">
+                  View Our Services
+                </Button>
+              </div>
             </div>
 
             <div className="hidden md:block animate-slideInRight">
               <img
                 src="https://private-us-east-1.manuscdn.com/sessionFile/Jso19SPJ3omHUJw6xkNjnn/sandbox/eaUOwqFNzOiSaSEWJZ0xKO-img-3_1770959028000_na1fn_bnJpLWNhc2UtbWFuYWdlci1oZXJv.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSnNvMTlTUEozb21IVUp3NnhrTmpubi9zYW5kYm94L2VhVU93cUZOek9pU2FTRVdKWjB4S08taW1nLTNfMTc3MDk1OTAyODAwMF9uYTFmbl9ibkpwTFdOaGMyVXRiV0Z1WVdkbGNpMW9aWEp2LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=lQ1sRMfd7RsFftpHtOLKd6FW3gRVcXlptbwkU4c3rFGXM7kNxNlv19SW69zB7ACCvuvraPJ-sBgG4E-wslQX7AYVY-n8syUJpR9JRiZ9geFfYYKU4bi8phItm59OUuEE1P3LLDs6HayNJNLNEXEspTrnrpu~gdxIerfANN2QOA2T6p0il98GXYiYVs3AtYOyTEuNcN2wLwyg7h1dHpNgmSgA5xsTl1c2OSuqFirEhGZunWxvrqp3jbL7tIwmoOTaiM5toMJ81C9KHZxJth-5-7GiA-t724LV9ZSzmWqSGCHXL0WjQ2im2Qnn9G5f1-GkprdCxJCBR~g1PE3AAoMeKw__"
-                alt="NRI MART Case Manager"
+                alt="NRI Mart Case Manager"
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
             </div>
@@ -286,7 +294,7 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-playfair">
-              Why Choose NRI MART?
+              Why Choose NRI Mart?
             </h2>
             <p className="text-lg text-foreground/70 font-poppins">
               Recognized for simplicity, efficiency, and cultural connection
@@ -402,14 +410,24 @@ export default function Home() {
             Experience the Future of Convenience
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto font-poppins">
-            Download NRI MART today and bring a piece of home to your doorstep, wherever life takes you.
+            Download NRI Mart today and bring a piece of home to your doorstep, wherever life takes you.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 font-semibold">
-              <Download className="mr-2 w-5 h-5" />
-              Download App Now
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 font-semibold">
+          <div className="flex flex-wrap gap-6 justify-center items-center">
+            <a href="#" className="hover:opacity-90 transition-opacity">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                alt="Download on the App Store"
+                className="h-12 md:h-14 brightness-0 invert"
+              />
+            </a>
+            <a href="#" className="hover:opacity-90 transition-opacity">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                alt="Get it on Google Play"
+                className="h-12 md:h-14 brightness-0 invert"
+              />
+            </a>
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 font-semibold h-12 md:h-14">
               Get Started
             </Button>
           </div>
@@ -425,7 +443,7 @@ export default function Home() {
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                   <span className="font-bold font-playfair">NM</span>
                 </div>
-                <span className="font-bold text-lg font-playfair">NRI MART</span>
+                <span className="font-bold text-lg font-playfair">NRI Mart</span>
               </div>
               <p className="text-white/70 text-sm font-poppins">Bringing INDIA Near you, simplified.</p>
             </div>
@@ -447,15 +465,24 @@ export default function Home() {
             </div>
             <div>
               <h4 className="font-bold mb-4 font-playfair">Connect</h4>
-              <ul className="space-y-2 text-white/70 text-sm font-poppins">
+              <ul className="space-y-2 text-white/70 text-sm font-poppins mb-6">
                 <li><a href="#" className="hover:text-white transition-colors">Facebook</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Instagram</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Twitter</a></li>
               </ul>
+              <h4 className="font-bold mb-4 font-playfair">Get the App</h4>
+              <div className="flex flex-col gap-3">
+                <a href="#" className="hover:opacity-80 transition-opacity">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store" className="h-10 w-auto brightness-0 invert" />
+                </a>
+                <a href="#" className="hover:opacity-80 transition-opacity">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" className="h-10 w-auto brightness-0 invert" />
+                </a>
+              </div>
             </div>
           </div>
           <div className="border-t border-white/20 pt-8 text-center text-white/60 text-sm font-poppins">
-            <p>&copy; 2026 NRI MART. All rights reserved. Simplifying your life across borders.</p>
+            <p>&copy; 2026 NRI Mart. All rights reserved. Simplifying your life across borders.</p>
           </div>
         </div>
       </footer>

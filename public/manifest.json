@@ -1,7 +1,7 @@
 {
-    "name": "NRI MART",
+    "name": "NRI Mart",
     "short_name": "NRIMart",
-    "description": "NRI MART is your bridge to home, simplifying international shipping and shopping from India.",
+    "description": "NRI Mart is your bridge to home, simplifying international shipping and shopping from India.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",

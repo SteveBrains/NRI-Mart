@@ -15,20 +15,20 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-    title: "NRI MART | Revolutionizing NRI Services & International Logistics",
-    description: "NRI MART is Bringing INDIA Near you. We offer comprehensive services for NRIs including store products, custom sourcing, safe luggage delivery, and e-commerce shipping with dedicated case managers.",
+    title: "NRI Mart | Revolutionizing NRI Services & International Logistics",
+    description: "NRI Mart is Bringing INDIA Near you. We offer comprehensive services for NRIs including store products, custom sourcing, safe luggage delivery, and e-commerce shipping with dedicated case managers.",
     keywords: "NRI services, international shipping, luggage delivery service, personal shopper for NRIs, e-commerce products India, NRI Mart app, Bringing INDIA Near you, custom logistics for NRIs",
     openGraph: {
         type: "website",
         url: "https://nrimart.com/",
-        title: "NRI MART | Bringing INDIA Near you",
-        description: "Simplify your life with NRI MART. From everyday essentials to unique finds and luggage delivery, we are Bringing INDIA Near you with care.",
+        title: "NRI Mart | Bringing INDIA Near you",
+        description: "Simplify your life with NRI Mart. From everyday essentials to unique finds and luggage delivery, we are Bringing INDIA Near you with care.",
         images: [{ url: "https://nrimart.com/og-image.png" }],
     },
     twitter: {
         card: "summary_large_image",
-        title: "NRI MART | Bringing INDIA Near you",
-        description: "Experience the future of convenience with NRI MART. Dedicated case managers and seamless international shipping, Bringing INDIA Near you.",
+        title: "NRI Mart | Bringing INDIA Near you",
+        description: "Experience the future of convenience with NRI Mart. Dedicated case managers and seamless international shipping, Bringing INDIA Near you.",
         images: ["https://nrimart.com/og-image.png"],
     },
     alternates: {
@@ -50,7 +50,7 @@ export default function RootLayout({
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "LocalBusiness",
-                            "name": "NRI MART",
+                            "name": "NRI Mart",
                             "image": "https://nrimart.com/logo.png",
                             "@id": "https://nrimart.com",
                             "url": "https://nrimart.com",
@@ -80,7 +80,7 @@ export default function RootLayout({
                                 "https://www.facebook.com/nrimart",
                                 "https://www.instagram.com/nrimart"
                             ],
-                            "description": "NRI MART is a bridge to home for NRIs, offering comprehensive services beyond groceries including e-commerce products and luggage delivery from Hyderabad."
+                            "description": "NRI Mart is a bridge to home for NRIs, offering comprehensive services beyond groceries including e-commerce products and luggage delivery from Hyderabad."
                         })
                     }}
                 />

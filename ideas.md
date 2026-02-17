@@ -1,4 +1,4 @@
-# NRI MART Landing Page - Design Brainstorm
+# NRI Mart Landing Page - Design Brainstorm
 
 ## Design Approach Selection
 

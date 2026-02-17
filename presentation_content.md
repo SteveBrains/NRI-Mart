@@ -1,10 +1,10 @@
-# NRI MART Landing Page - Interactive Presentation
+# NRI Mart Landing Page - Interactive Presentation
 
 ## Slide 1: Project Overview
-**Title:** NRI MART Landing Page - Your Bridge to Home
+**Title:** NRI Mart Landing Page - Your Bridge to Home
 
 **Content:**
-A comprehensive, professionally designed landing page for NRI MART, a service platform connecting Non-Resident Indians with home delivery, shopping, and luggage management solutions. The website showcases a warm, culturally-aware design that emphasizes trust, personalization, and multilingual support.
+A comprehensive, professionally designed landing page for NRI Mart, a service platform connecting Non-Resident Indians with home delivery, shopping, and luggage management solutions. The website showcases a warm, culturally-aware design that emphasizes trust, personalization, and multilingual support.
 
 **Key Metrics:**
 - 8 Major Sections
