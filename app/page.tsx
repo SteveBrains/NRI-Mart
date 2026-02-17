@@ -177,16 +177,18 @@ export default function Home() {
               </h1>
               <p className="text-xl text-foreground/80 mb-8 font-light font-poppins leading-relaxed">
                 NRI MART is Bringing INDIA Near you. We deliver the authentic taste, touch, and tradition of India directly to your doorstep, anywhere in the world.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-8">
-                  <Download className="mr-2 w-5 h-5" />
-                  Download NRI MART
-                </Button>
-                <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10 text-lg px-8">
-                  View Our Services
-                </Button>
-              </div>
+                <p className="text-xl text-foreground/80 mb-8 font-light font-poppins leading-relaxed">
+                  NRI MART is Bringing INDIA Near you. We deliver the authentic taste, touch, and tradition of India directly to your doorstep, anywhere in the world.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-8">
+                    <Download className="mr-2 w-5 h-5" />
+                    Download NRI MART
+                  </Button>
+                  <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10 text-lg px-8">
+                    View Our Services
+                  </Button>
+                </div>
             </div>
 
             <div className="hidden md:block animate-slideInRight">
