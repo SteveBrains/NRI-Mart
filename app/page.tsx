@@ -93,18 +93,18 @@ export default function Home() {
   ];
 
   const countries = [
-    { name: "United States", flag: "🇺🇸" },
-    { name: "United Kingdom", flag: "🇬🇧" },
-    { name: "Canada", flag: "🇨🇦" },
-    { name: "Australia", flag: "🇦🇺" },
-    { name: "Germany", flag: "🇩🇪" },
-    { name: "UAE", flag: "🇦🇪" },
-    { name: "Singapore", flag: "🇸🇬" },
-    { name: "New Zealand", flag: "🇳🇿" },
-    { name: "Netherlands", flag: "🇳🇱" },
-    { name: "France", flag: "🇫🇷" },
-    { name: "Ireland", flag: "🇮🇪" },
-    { name: "Saudi Arabia", flag: "🇸🇦" },
+    { name: "United States", code: "us" },
+    { name: "United Kingdom", code: "gb" },
+    { name: "Canada", code: "ca" },
+    { name: "Australia", code: "au" },
+    { name: "Germany", code: "de" },
+    { name: "UAE", code: "ae" },
+    { name: "Singapore", code: "sg" },
+    { name: "New Zealand", code: "nz" },
+    { name: "Netherlands", code: "nl" },
+    { name: "France", code: "fr" },
+    { name: "Ireland", code: "ie" },
+    { name: "Saudi Arabia", code: "sa" },
   ];
 
   const howItWorks = [
@@ -357,8 +357,12 @@ export default function Home() {
                 key={index}
                 className="flex items-center gap-4 px-6 py-4 bg-white border border-border rounded-2xl hover:border-primary/30 hover:shadow-[0_20px_50px_rgba(68,97,41,0.1)] hover:-translate-y-1 transition-all duration-500 group cursor-default min-w-[200px]"
               >
-                <div className="w-12 h-12 rounded-full bg-muted/50 flex items-center justify-center text-3xl shadow-inner group-hover:bg-primary/10 transition-colors duration-500">
-                  {country.flag}
+                <div className="w-12 h-12 rounded-full overflow-hidden bg-muted/50 flex items-center justify-center shadow-inner group-hover:bg-primary/10 transition-colors duration-500">
+                  <img
+                    src={`https://flagcdn.com/${country.code}.svg`}
+                    alt={`${country.name} flag`}
+                    className="w-full h-full object-cover scale-150"
+                  />
                 </div>
                 <span className="font-semibold text-foreground/80 group-hover:text-primary transition-colors duration-500 font-poppins">
                   {country.name}
